@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+}
+.contact{
+    font-family: 'Fraunces', serif;
+}
+.bg-img{
+    background-image: url("./sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
+}
+.burger-active {
+    opacity: 0.5;
+}
+@media screen and (max-width: 700px){
+    .bg-img{
+        background-image: url("./sunnyside-agency-landing-page-main/images/mobile/image-header.jpg");
+    }
+}
